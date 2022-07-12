@@ -1,0 +1,24 @@
+.link,
+.active {
+  border: 1px solid transparent;
+  transition: all 0.35s ease;
+}
+.link:hover {
+  border: 1px solid #e15d74;
+}
+.active,
+.active:hover {
+  border: 1px solid #e15d74;
+  box-shadow: 3px 3px 0 0 #e15d74;
+  color: #ece2d0;
+}
+.brand,
+.brand:hover {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  color: #ece2d0;
+}
+.lambda {
+  color: #e15d74;
+}

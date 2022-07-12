@@ -1,0 +1,6 @@
+.up-container {
+  background-color: #222;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 10;
+}

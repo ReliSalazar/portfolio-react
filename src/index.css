@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Permanent+Marker&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+  background-color: #222;
+  background: url("/public/fauuxy.gif"), #ccc none repeat scroll 0 0;
+  color: #ece2d0;
+  /* background-color: #ece2d0;
+  color: #222; */
+}
+
+img {
+  image-rendering: -moz-crisp-edges; /* Firefox */
+  image-rendering: -o-crisp-edges; /* Opera */
+  image-rendering: -webkit-optimize-contrast; /* Webkit (non-standard naming) */
+  image-rendering: crisp-edges;
+  -ms-interpolation-mode: nearest-neighbor; /* IE (non-standard property) */
+}
+
+::moz-selection {
+  color: white;
+  background-color: #e15d74;
+}
+::selection {
+  color: white;
+  background-color: #e15d74;
+}
+
+.fade-in {
+  animation: section-fade-in 0.35s ease;
+}
+
+@keyframes section-fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.title, .subtitle {
+  color: #e15d74;
+}
+
+.primary-border {
+  border: 1px solid #e15d74;
+}
+.secondary-border {
+  border: 1px solid #7fd1b9;
+}
+
+.primary-button {
+  border: 1px solid #e15d74;
+  box-shadow: 3px 3px 0 0 #e15d74;
+  transition: all 0.35s ease;
+}
+.primary-button:hover {
+  box-shadow: 5px 5px 0 0 #e15d74;
+}
+.secondary-button {
+  border: 1px solid #7fd1b9;
+  box-shadow: 3px 3px 0 0 #7fd1b9;
+  transition: all 0.35s ease;
+}
+.secondary-button:hover {
+  box-shadow: 5px 5px 0 0 #7fd1b9;
+}
+
+.primary-link {
+  border: 1px solid #e15d74;
+  box-shadow: 5px 5px 0 0 #e15d74;
+  transition: all 0.35s ease;
+}
+.primary-link:hover {
+  box-shadow: 8px 8px 0 0 #e15d74;
+}
+.secondary-link {
+  border: 1px solid #7fd1b9;
+  box-shadow: 5px 5px 0 0 #7fd1b9;
+  transition: all 0.35s ease;
+}
+.secondary-link:hover {
+  box-shadow: 8px 8px 0 0 #7fd1b9;
+}
+
+.border-top {
+  border-top: 1px solid #7fd1b9;
+}
+.border-top-drk {
+  border-top: 1px solid #1b998b;
+}
+.border-bottom {
+  border-bottom: 1px solid #7fd1b9;
+}
+.border-bottom-drk {
+  border-bottom: 1px solid #1b998b;
+}
+
+.border {
+  border: 1px solid white;
+}

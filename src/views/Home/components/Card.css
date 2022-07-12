@@ -1,0 +1,15 @@
+.card {
+  /* border-bottom: 1px solid #7fd1b9; */
+}
+.img-container img {
+  height: 100%;
+  width: auto;
+  max-height: 80vh;
+}
+.home-subtitle {
+  background-color: #1b998b;
+  width: 100%;
+}
+.tech-icon {
+  color: #e15d74;
+}

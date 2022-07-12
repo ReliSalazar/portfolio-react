@@ -1,0 +1,6 @@
+.post-miniature {
+  backdrop-filter: blur(1px);
+}
+.post-title {
+  color: #ece2d0;
+}
