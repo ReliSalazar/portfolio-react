@@ -4,8 +4,8 @@ import "./About.css";
 function About() {
   return (
     <div className="about flex flex-wrap px-5 py-10 justify-center items-center">
-      <div className="basis-full sm:basis-2/3 mb-10 sm:mb-0">
-          <h2 className="title text-3xl font-bold mb-5">About me</h2>
+      <div className="basis-full sm:basis-2/3 mb-10 sm:mb-0 pr-5">
+        <h2 className="title text-3xl font-bold mb-5">About me</h2>
         <p className="mb-5">
           My passion has always been to create things, I started from a young
           age to write music learning in a self-taught way, also got to do
