@@ -28,22 +28,17 @@ function Card() {
           Web developer
         </h2>
 
-        <div className="flex gap-2">
+        <div className="flex gap-2 items-center">
           <p className="font-bold text-xl">Age:</p>
-          <p>{getAge()}</p>
+          <p>{getAge()} yo</p>
         </div>
 
-        <div className="flex gap-2">
+        <div className="flex gap-2 items-center">
           <p className="font-bold text-xl">Nationality:</p>
           <p>Mexican</p>
         </div>
 
-        <div className="flex gap-2">
-          <p className="font-bold text-xl">Any pronouns</p>
-          <p>🟨⬜🟪⬛</p>
-        </div>
-
-        <div className="flex gap-2 flex-wrap">
+        <div className="flex gap-2 flex-wrap items-center">
           <p className="font-bold text-xl">Technologies:</p>
           <p>
             <FontAwesomeIcon className="tech-icon" icon={["fab", "react"]} />{" "}
@@ -70,12 +65,19 @@ function Card() {
             MySQL
           </p>
           <p>
-            <FontAwesomeIcon
-              className="tech-icon"
-              icon={["fa", "paintbrush"]}
-            />{" "}
+            <FontAwesomeIcon className="tech-icon" icon={["fa", "paintbrush"]} />{" "}
             ClipStudio Paint
           </p>
+        </div>
+
+        <div className="flex my-2">
+          <a href="/cv.pdf"
+            target="_blank"
+            rel="noopener noreferer"
+            className="text-base primary-button py-1 px-2"
+          >
+            My curriculum
+          </a>
         </div>
       </div>
     </div>
