@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import Modal from "./components/Modal";
 import artService from "../../services/artPosts";
 import "./index.css";
-import { images } from "./images";
 
 function Art() {
   const [draws, setDraws] = useState([]);

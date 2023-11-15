@@ -1,4 +1,3 @@
-import { images } from "../images";
 import "./Modal.css";
 
 function Modal({ show, setShowModal, image }) {

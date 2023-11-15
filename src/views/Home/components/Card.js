@@ -1,6 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./Card.css";
-import selfie1 from "../../../resources/img/HomeImages/selfie-1.webp"
 
 function getAge() {
   const today = new Date();
