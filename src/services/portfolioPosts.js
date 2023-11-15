@@ -15,6 +15,7 @@ import { flaskTodoer } from "./portfolio/flaskTodoer";
 import { lambdaLain } from "./portfolio/lambdaLain";
 import { markdownPreviewer } from "./portfolio/markdownPreviewer";
 import { milkyTrackerDocumentation } from "./portfolio/milkyTrackerDocumentation";
+import { myArt } from "./portfolio/myArt";
 import { pomodoroClock } from "./portfolio/pomodoroClock";
 import { randomQuoteMachine } from "./portfolio/randomQuoteMachine";
 import { securePassword } from "./portfolio/securePassword";
@@ -29,6 +30,7 @@ const posts = [
   thisWebsite,
   flaskTodoer,
   tuiEmail,
+  myArt,
   pomodoroClock,
   drumMachine,
   markdownPreviewer,
