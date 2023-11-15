@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import Modal from "./components/Modal";
 import artService from "../../services/artPosts";
 import "./index.css";
+import { images } from "./images";
 
 function Art() {
   const [draws, setDraws] = useState([]);
@@ -31,7 +32,7 @@ function Art() {
           {draws.map((draw) => (
             <img
               className="draw image-grid w-full mb-2"
-              src={`/ArtImages/${draw}`}
+              src={images[draw]}
               alt=""
               key={draw}
               onClick={() => handleImageClick(draw)}

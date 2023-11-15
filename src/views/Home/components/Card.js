@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./Card.css";
+import selfie1 from "../../../resources/img/HomeImages/selfie-1.webp"
 
 function getAge() {
   const today = new Date();
@@ -17,7 +18,7 @@ function Card() {
     <div className="card border-bottom p-5 flex flex-row flex-wrap">
       <div className="basis-full sm:basis-1/3 flex flex-col justify-center items-center mb-5 sm:mb-0">
         <div className="img-container">
-          <img src="/HomeImages/selfie-1.webp" alt="" />
+          <img src={selfie1} alt="" />
         </div>
       </div>
 
