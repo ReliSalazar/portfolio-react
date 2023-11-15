@@ -16,11 +16,11 @@ function App() {
       <Navbar />
 
       <Routes>
-        <Route path="/portfolio-react" element={<Home />} />
-        <Route path="portfolio-react/portfolio" element={<Portfolio />} />
-        <Route path="portfolio-react/blog" element={<Blog />} />
-        <Route path="portfolio-react/art" element={<Art />} />
-        <Route path="portfolio-react/:service/:postId" element={<Post />} />
+        <Route path="/" element={<Home />} />
+        <Route path="portfolio" element={<Portfolio />} />
+        <Route path="blog" element={<Blog />} />
+        <Route path="art" element={<Art />} />
+        <Route path=":service/:postId" element={<Post />} />
 
         <Route
           path="*"
