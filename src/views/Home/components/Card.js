@@ -18,7 +18,7 @@ function Card() {
     <div className="card border-bottom p-5 flex flex-row flex-wrap">
       <div className="basis-full sm:basis-1/3 flex flex-col justify-center items-center mb-5 sm:mb-0">
         <div className="img-container">
-          <img src={selfie1} alt="" />
+          <img src="./HomeImages/selfie-1.webp" alt="" />
         </div>
       </div>
 

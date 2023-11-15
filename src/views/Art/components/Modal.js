@@ -8,7 +8,7 @@ function Modal({ show, setShowModal, image }) {
         <div className="container mx-auto p-5 sm:p-0 flex justify-center items-center">
           <div className="modal p-5 flex flex-col items-center justify-center">
             <div className="img-container flex justify-center items-center">
-              <img src={images[image]} alt="" />
+              <img src={`./ArtImages/${image}`} alt="" />
             </div>
           </div>
         </div>

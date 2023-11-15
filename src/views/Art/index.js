@@ -32,7 +32,7 @@ function Art() {
           {draws.map((draw) => (
             <img
               className="draw image-grid w-full mb-2"
-              src={images[draw]}
+              src={`./ArtImages/${draw}`}
               alt=""
               key={draw}
               onClick={() => handleImageClick(draw)}
