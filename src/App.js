@@ -17,6 +17,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/portfolio-react" element={<Home />} />
         <Route path="portfolio" element={<Portfolio />} />
         <Route path="blog" element={<Blog />} />
         <Route path="/art" element={<Art />} />
