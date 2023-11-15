@@ -1,3 +1,4 @@
+import { images } from "../images";
 import "./Modal.css";
 
 function Modal({ show, setShowModal, image }) {
@@ -7,15 +8,8 @@ function Modal({ show, setShowModal, image }) {
         <div className="container mx-auto p-5 sm:p-0 flex justify-center items-center">
           <div className="modal p-5 flex flex-col items-center justify-center">
             <div className="img-container flex justify-center items-center">
-              <img src={`/ArtImages/${image}`} alt="" />
+              <img src={images[image]} alt="" />
             </div>
-
-            {/* <button
-              className="secondary-button py-1 px-2 mt-5"
-              onClick={() => setShowModal(false)}
-            >
-              close
-            </button> */}
           </div>
         </div>
       </div>
